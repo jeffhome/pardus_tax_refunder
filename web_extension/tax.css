@@ -1,0 +1,183 @@
+#taxRefundAssistantInfo {
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	width: 600px;
+	font-size: 11px;
+}
+
+#taxRefundAssistantInfo p {
+	margin: 0 0 5px 0;
+}
+
+#taxRefundAssistantInfo form {
+	float: right;
+}
+
+#taxRefundAssistantInfo span {
+	display: none;
+	float: left;
+	padding: 0 15px 2px;
+	margin: 0 0 8px 175px;
+	font-style: italic;
+	border-left: 5px solid #ccc;
+	border-right: 5px solid #ccc;
+	line-height: 165%;
+}
+
+#taxRefundAssistantInfo span.finished {
+	display: block;
+	font-style: none;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+
+#taxRefundAssistantInfo input[type="submit"] {
+	font-size: 12px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	background-color: #FFCC11;
+	color: #000000;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+#taxRefundAssistantInfo .disabled {
+	display: none;
+}
+
+#taxRefundAssistantInfo .levy input {
+	width: 100px;
+}
+
+#taxRefundAssistantInfo .levy button {
+	float: right;
+	font-size: 12px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	background-color: #FFCC11;
+	color: #000000;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+#deleteTaxRecord input[type="submit"] {
+	font-size: 12px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	background-color: #FF1111;
+	color: #000000;
+	cursor: pointer;
+	margin: 5px;
+}
+#deleteTaxRecord form {
+	display: inline;
+}
+
+#pilotActivitySummaryTable {
+	width: 500px;
+	clear: left;
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
+
+#pilotActivitySummaryTable tr.inactive td {
+	font-style: italic;
+	color: #61616F;
+}
+
+#pilotActivitySummaryTable td, #pilotActivitySummaryTable th {
+	padding: 0 3px;
+	height: 25px;
+}
+
+#pilotActivitySummaryTable th.col2, #pilotActivitySummaryTable td.col2 {
+	text-align: center;
+}
+
+#pilotActivitySummaryTable th.col3, #pilotActivitySummaryTable td.col3 {
+	text-align: right;
+}
+
+#pilotActivitySummaryTable th.col3, #pilotActivitySummaryTable td.col4 {
+	text-align: right;
+}
+
+#pilotActivitySummaryTable th.col3, #pilotActivitySummaryTable td.col5 {
+	text-align: right;
+}
+
+#pilotActivitySummaryTable input {
+	position: absolute;
+	 left: 0px;
+	 top: 0px;
+	 margin: 0px;
+}
+
+#pilotActivitySummaryTable label {
+	position: relative;
+	 display: inline-block;
+	width: 100%;
+}
+
+#pilotActivityRefundTable {
+	width: 180px;
+	float: left;
+	margin-left: 5px;
+	border-color: transparent;
+}
+
+#pilotActivityRefundTable td, #pilotActivityRefundTable th {
+	padding: 0 3px;
+	height: 25px;
+	background-color: transparent;
+}
+
+#pilotActivityRefundTable th.col1, #pilotActivityRefundTable td.col1 {
+	text-align: center;
+}
+
+#pilotActivityRefundTable button {
+	visibility: hidden;
+	padding: 1px 2px;
+	border-radius: 4px;
+	background-color: #26A839;
+	color: #000000;
+	cursor: pointer;
+}
+
+#RefundRemoveAll {
+	font-size: 12px;
+	padding: 3px 6px;
+	margin-bottom: 5px;
+	border-radius: 4px;
+	background-color: #26A839;
+	color: #000000;
+	cursor: pointer;
+}
+
+#pilotActivityRefundTable th button {
+	visibility: visible;
+	border-style: outset;
+	background-color: #FFCC11;
+	color: #000000;
+	cursor: pointer;
+	margin: 0 3px;
+}
+
+#pilotActivityRefundTable th button.visible {
+	border-style: inset;
+}
+
+#pilotActivityRefundTable td button.visible {
+	visibility: visible;
+}
+
+#pilotActivityRefundTable button[disabled='disabled'] {
+	display: none;
+	background-color: #AAAAAA;
+	color: #666666;
+	cursor: default;
+}
+

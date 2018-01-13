@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><title>Options</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="options.css"/>
+</head>
+<body>
+	<h1>Tax Refunder Settings</h1>
+
+	<div class="title" id="orion_settings">&raquo; Orion</div>
+	<ul id="orion_settings_list" class="show">
+		<li class="section"><div><input type="checkbox" id="boolEnableLevyToggleOrion"/> <label for="boolEnableLevyToggleOrion">Enable levy in Orion</label></div> <input type="text" id="strFlatTaxValueOrion" maxlength="8"/> <label for="strFlatTaxValueOrion">credits to levy pilots for Orion</label></li>
+		<li class="instructions">If a pilot doesn't have enough to pay the levy from the amount of taxes they have already paid, no levy will be taken from that pilot's tax refund, otherwise the levy will be deducted from the tax collected from them - and the remaining amount refunded.</li>
+		<li><div><label for="strMemberActivityOrion">Pilots are active if they logged in:<label> </div><select id="strMemberActivityOrion"><option value="less than 1 week">within the last week</option><option value="more than 1 week">within the last month</option><option value="more than 1 month">within the last 2 months</option></select></li>
+	</ul>
+
+	<div class="title" id="artemis_settings">&raquo; Artemis</div>
+	<ul id="artemis_settings_list">
+		<li class="section"><div><input type="checkbox" id="boolEnableLevyToggleArtemis"/> <label for="boolEnableLevyToggleArtemis">Enable levy in Artemis</label></div> <input type="text" id="strFlatTaxValueArtemis" maxlength="8"/> <label for="strFlatTaxValueArtemis">credits to levy pilots for Artemis</label></li>
+		<li class="instructions">If a pilot doesn't have enough to pay the levy from the amount of taxes they have already paid, no levy will be taken from that pilot's tax refund, otherwise the levy will be deducted from the tax collected from them - and the remaining amount refunded.</li>
+		<li><div><label for="strMemberActivityArtemis">Pilots are active if they logged in:<label> </div><select id="strMemberActivityArtemis"><option value="less than 1 week">within the last week</option><option value="more than 1 week">within the last month</option><option value="more than 1 month">within the last 2 months</option></select></li>
+	</ul>
+
+	<div class="title" id="pegasus_settings">&raquo; Pegasus</div>
+	<ul id="pegasus_settings_list">
+		<li class="section"><div><input type="checkbox" id="boolEnableLevyTogglePegasus"/> <label for="boolEnableLevyTogglePegasus">Enable levy in Pegasus</label></div> <input type="text" id="strFlatTaxValuePegasus" maxlength="8"/> <label for="strFlatTaxValuePegasus">credits to levy pilots for Pegasus</label></li>
+		<li class="instructions">If a pilot doesn't have enough to pay the levy from the amount of taxes they have already paid, no levy will be taken from that pilot's tax refund, otherwise the levy will be deducted from the tax collected from them - and the remaining amount refunded.</li>
+		<li><div><label for="strMemberActivityPegasus">Pilots are active if they logged in:<label> </div><select id="strMemberActivityPegasus"><option value="less than 1 week">within the last week</option><option value="more than 1 week">within the last month</option><option value="more than 1 month">within the last 2 months</option></select></li>
+	</ul>
+
+	<div class="cta_save"><button id="save">Save Settings</button> <span id="status"></span></div>
+
+	<script src="options.js"></script>
+</body>
+</html>
