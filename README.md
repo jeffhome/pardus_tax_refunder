@@ -1,4 +1,4 @@
-# Pardus Tax Refunder
+# Pardus Tax Refunder (v1.01)
 Assist in processing tax refunds based on pilot activity for use by an Alliance Treasurer within Pardus (a MMORPG set in space).
 
 ## What is this?

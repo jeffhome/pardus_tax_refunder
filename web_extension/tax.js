@@ -324,7 +324,8 @@ TaxRefunder.prototype.refundAllActivePilots = function(e) {
 	var totalRefunded = 0;
 	var totalLevyRetained = 0;
 	var totalRetained = 0;
-	let millisecondsToThrottle = 20;
+	
+	let millisecondsToThrottle = 50; // when set to 20ms it appeared to get "500" page errors for large (200+) alliances
 	let timeoutMilliseconds = 0;
 	
 	buttons = this.doc.querySelectorAll('#pilotActivityRefundTable td button');

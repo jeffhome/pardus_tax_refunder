@@ -2,9 +2,9 @@
 #
 # Example syntax:
 #
-# ./build.sh pardus_tax_refunder-1.0.0 chrome
-# ./build.sh pardus_tax_refunder-1.0.0 firefox
-# ./build.sh pardus_tax_refunder-1.0.0 all
+# ./build.sh pardus_tax_refunder-1.0.1 chrome
+# ./build.sh pardus_tax_refunder-1.0.1 firefox
+# ./build.sh pardus_tax_refunder-1.0.1 all
 #
 
 # Set up some variables based on what was supplied to the script
@@ -21,9 +21,9 @@ if [ -v $2 ]; then
 	echo "  ./build.sh filename [chrome|firefox|all]"
 	echo ""
 	echo "Example:"
-	echo "  ./build.sh pardus_tax_refunder-1.0.0 chrome"
-	echo "  ./build.sh pardus_tax_refunder-1.0.0 firefox"
-	echo "  ./build.sh pardus_tax_refunder-1.0.0 all"
+	echo "  ./build.sh pardus_tax_refunder-1.0.1 chrome"
+	echo "  ./build.sh pardus_tax_refunder-1.0.1 firefox"
+	echo "  ./build.sh pardus_tax_refunder-1.0.1 all"
 	exit
 fi
 
